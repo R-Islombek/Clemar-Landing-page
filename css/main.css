@@ -8,6 +8,7 @@
     --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     --border-radius: 8px;
     --transition: all 0.3s ease;
+     --shadow: 0 4px 18px rgba(179, 89, 89, 0.1);
 }
 
 * {
@@ -101,7 +102,7 @@ body {
     background: var(--bg-color);
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
-    padding: 10px 0;
+    padding: 9px 0;
     min-width: 200px;
     opacity: 0;
     visibility: hidden;
